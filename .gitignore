@@ -1,0 +1,34 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Secrets & lokale Overrides
+.env
+.env.*
+*.env
+!*.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# State / Logs / Exporte
+*.log
+exports/
+tmp/
+.cache/
+
+# Archive
+*.zip
+*.tar.gz
